@@ -37,7 +37,7 @@ namespace Toro.Infra.Repository
             var queryParams = new DynamicParameters();
             queryParams.Add("AccountId", accountId);
 
-            var query = @"SELECT AccoundId, Cpf, Bank, Branch, AccountNumber, Name, Balance
+            var query = @"SELECT AccountId, Cpf, Bank, Branch, AccountNumber, Name, Balance
                             FROM Account WITH (NOLOCK)
                             WHERE AccountId = @AccountId";
 
@@ -53,7 +53,7 @@ namespace Toro.Infra.Repository
             var queryParams = new DynamicParameters();
             queryParams.Add("AccountNumber", accountNumber);
 
-            var query = @"SELECT AccoundId, Cpf, Bank, Branch, AccountNumber, Name, Balance
+            var query = @"SELECT AccountId, Cpf, Bank, Branch, AccountNumber, Name, Balance
                             FROM Account WITH (NOLOCK)
                             WHERE AccountNumber = @AccountNumber";
 

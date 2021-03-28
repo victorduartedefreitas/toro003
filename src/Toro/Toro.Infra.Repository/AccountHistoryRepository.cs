@@ -37,7 +37,7 @@ namespace Toro.Infra.Repository
             var queryParams = new DynamicParameters();
             queryParams.Add("AccountId", accountId);
 
-            var query = @"SELECT HistoryId, AccoundId, Date, TransactionType, Description, Amount
+            var query = @"SELECT HistoryId, AccountId, Date, TransactionType, Description, Amount
                             FROM AccountHistory WITH (NOLOCK)
                             WHERE AccountId = @AccountId";
 

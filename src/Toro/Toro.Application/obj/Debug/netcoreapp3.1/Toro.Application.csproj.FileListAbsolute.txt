@@ -1,0 +1,12 @@
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\bin\Debug\netcoreapp3.1\Toro.Application.deps.json
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\bin\Debug\netcoreapp3.1\Toro.Application.dll
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\bin\Debug\netcoreapp3.1\Toro.Application.pdb
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\bin\Debug\netcoreapp3.1\Toro.Domain.dll
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\bin\Debug\netcoreapp3.1\Toro.Domain.pdb
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.csprojAssemblyReference.cache
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.AssemblyInfoInputs.cache
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.AssemblyInfo.cs
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.csproj.CoreCompileInputs.cache
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.csproj.CopyComplete
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.dll
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Application\obj\Debug\netcoreapp3.1\Toro.Application.pdb

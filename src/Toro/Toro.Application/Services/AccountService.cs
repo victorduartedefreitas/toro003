@@ -41,12 +41,12 @@ namespace Toro.Application.Services
                 return new DefaultServiceReturn(false, "Conta de destino não pode ser nula");
             if (transaction.Amount <= 0)
                 return new DefaultServiceReturn(false, "Valor da transação precisa ser maior que zero");
-            if (transaction.Target.Cpf != transaction.Origin.Cpf)
-                return new DefaultServiceReturn(false, "CPF da conta de origem é diferente do CPF da conta de destino");
 
             var account = await accountReadOnlyRepository.GetAccountAsync(transaction.Target.AccountNumber);
             if (account == null)
                 return new DefaultServiceReturn(false, "Conta de destino inexistente");
+            if (account.Cpf != transaction.Origin.Cpf)
+                return new DefaultServiceReturn(false, "CPF da conta de origem é diferente do CPF da conta de destino");
 
             var history = new AccountHistory()
             {

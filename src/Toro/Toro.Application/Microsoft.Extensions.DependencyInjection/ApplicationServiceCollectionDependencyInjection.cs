@@ -7,6 +7,9 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
+            if (services is null)
+                throw new System.ArgumentNullException(nameof(services));
+
             services.AddScoped<IAccountService, AccountService>();
 
             return services;
