@@ -6,6 +6,6 @@ namespace Toro.Domain.Repositories
 {
     public interface IAccountHistoryReadOnlyRepository
     {
-        Task<AccountHistory> GetHistory(Guid accountId);
+        Task<AccountHistory> GetHistoryAsync(Guid accountId);
     }
 }

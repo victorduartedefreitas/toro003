@@ -1,0 +1,4 @@
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Infra.Repository\bin\Debug\netcoreapp3.1\Toro.Domain.dll
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Infra.Repository\obj\Debug\netcoreapp3.1\Toro.Infra.Repository.csprojAssemblyReference.cache
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Infra.Repository\obj\Debug\netcoreapp3.1\Toro.Infra.Repository.AssemblyInfoInputs.cache
+D:\Projetos\git\victorduartedefreitas\toro003\src\Toro\Toro.Infra.Repository\obj\Debug\netcoreapp3.1\Toro.Infra.Repository.AssemblyInfo.cs

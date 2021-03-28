@@ -6,7 +6,7 @@ namespace Toro.Domain.Repositories
 {
     public interface IAccountReadOnlyRepository
     {
-        Task<Account> GetAccount(Guid accountId);
-        Task<Account> GetAccount(string accountNumber);
+        Task<Account> GetAccountAsync(Guid accountId);
+        Task<Account> GetAccountAsync(string accountNumber);
     }
 }

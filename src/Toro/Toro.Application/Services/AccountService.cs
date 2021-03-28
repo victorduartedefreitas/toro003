@@ -44,7 +44,7 @@ namespace Toro.Application.Services
             if (transaction.Target.Cpf != transaction.Origin.Cpf)
                 return new DefaultServiceReturn(false, "CPF da conta de origem é diferente do CPF da conta de destino");
 
-            var account = await accountReadOnlyRepository.GetAccount(transaction.Target.AccountNumber);
+            var account = await accountReadOnlyRepository.GetAccountAsync(transaction.Target.AccountNumber);
             if (account == null)
                 return new DefaultServiceReturn(false, "Conta de destino inexistente");
 
@@ -58,10 +58,10 @@ namespace Toro.Application.Services
                 Amount = transaction.Amount
             };
 
-            await accountHistoryWriteOnlyRepository.Save(history);
+            await accountHistoryWriteOnlyRepository.SaveAsync(history);
 
             account.Balance += transaction.Amount;
-            await accountWriteOnlyRepository.Save(account);
+            await accountWriteOnlyRepository.SaveAsync(account);
 
             return new DefaultServiceReturn(true, string.Empty);
         }

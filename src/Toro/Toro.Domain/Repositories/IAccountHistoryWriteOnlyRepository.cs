@@ -5,6 +5,6 @@ namespace Toro.Domain.Repositories
 {
     public interface IAccountHistoryWriteOnlyRepository
     {
-        Task Save(AccountHistory accountHistory);
+        Task SaveAsync(AccountHistory accountHistory);
     }
 }
