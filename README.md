@@ -19,6 +19,12 @@ A solução contém 5 projetos, divididos em 3 diretórios:
 - IoC
 - Dependency Injection
 
+### Dependências
+- Dapper
+- Moq
+- Microsoft.Extensions.DependencyInjection
+- Microsoft.Extensions.DependencyInjection.Abstractions
+
 ## Instruções
 
 Para testar a Api, antes de mais nada é necessário criar o banco de dados. Dentro da pasta "sql" existem 2 arquivos para a criação do banco de dados.
