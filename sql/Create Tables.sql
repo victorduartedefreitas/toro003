@@ -8,11 +8,11 @@ create table [Account](
 	[Bank] varchar(3) not null,
 	[Branch] varchar(6) not null,
 	[AccountNumber] varchar(6) not null,
-	[Amount] decimal(10,3) not null,
+	[Balance] decimal(10,3) not null,
 	constraint PK_ACCOUNT primary key ([AccountId]),
 	constraint UN_ACCOUNT_CPF unique ([Cpf]),
 	constraint UN_ACCOUNT_NUMBER unique ([AccountNumber]),
-	constraint CHK_ACCOUNT_AMOUNT check ([Amount] >= 0))
+	constraint CHK_ACCOUNT_AMOUNT check ([Balance] >= 0))
 
 create table [AccountHistory](
 	[HistoryId] uniqueidentifier not null default(newid()),
